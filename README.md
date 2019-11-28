@@ -20,7 +20,7 @@ capture is 1 minute from the time trade window stock market opens till the time 
  
     Stocker/src/main/java/com/example/StockerApplication.java
  
- * Make sure you haven installed on your system to run this application
+ * Make sure you maven installed on your system to run this application
  * Hit the below command to run the application in the terminal
     
     mvn spring-boot:run
