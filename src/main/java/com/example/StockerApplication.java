@@ -42,7 +42,7 @@ public class StockerApplication {
             int sellingPrice = stockPrices[1];
             int[] maxProfitForEachStockPrice = new int[stockPriceLength];
             int maxProfitIndex = 0;
-            /* Variable initialisations starts */
+            /* Variable initialisations ends */
 
             //First loop to iterate over the list of stock prices
             for (int i = 0; i < stockPriceLength; i++) {
