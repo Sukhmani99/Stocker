@@ -16,8 +16,13 @@ capture is 1 minute from the time trade window stock market opens till the time 
 
  * The StockerApplication program is based on top of a Spring Boot application
  * It uses maven as the build tool
+ * The main algorithm can be found in the file mentioned below
+ 
+    Stocker/src/main/java/com/example/StockerApplication.java
+ 
  * Make sure you haven installed on your system to run this application
  * Hit the below command to run the application in the terminal
+    
     mvn spring-boot:run
     
  * You can also run the application in IntelliJ by clicking on the run button in the project toolbar
@@ -26,6 +31,9 @@ capture is 1 minute from the time trade window stock market opens till the time 
 
 The StockerApplication program is based on top of a Spring Boot application
  * The test cases are written in the below file using JUnit
+ 
     Stocker/src/test/java/com/example/StockerApplicationTests.java
+ 
  * To run the test cases hit the below command
+    
     mvn test
