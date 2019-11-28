@@ -24,7 +24,7 @@ class StockerApplicationTests {
         assertEquals("You need at least 1 buying price and 1 selling price to calculate max profit", StockerApplication.getMaxProfit(input));
     }
 
-    /* Test case to check if the getMaxProfit() returns the right response on invalid input values for stock price*/
+    /* Test case to check if the getMaxProfit() returns the right response on null input for stock price*/
     @Test
     public void testGetMaxProfitWithNullException()
     {
